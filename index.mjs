@@ -1,6 +1,8 @@
-const fs = require('fs');
-const inquirer = require('inquirer');
-const ejs = require('ejs');
+import fs from 'fs';
+import inquirer from 'inquirer';
+import ejs from 'ejs'
+
+
 
 const template = fs.readFileSync('template.md', 'utf8');
 
@@ -57,3 +59,29 @@ inquirer
     const markdown = ejs.render(template, answers);
     fs.writeFileSync('README.md', markdown);
   });
+
+  function renderLicenseBadge(license) {
+    let color;
+    let link;
+  
+    switch (license) {
+      case 'MIT':
+        color = 'yellow';
+        link = 'https://opensource.org/licenses/MIT';
+        break;
+      case 'Apache-2.0':
+        color = 'orange';
+        link = 'https://opensource.org/licenses/Apache-2.0';
+        break;
+      case 'GPL-3.0':
+        color = 'blue';
+        link = 'https://www.gnu.org/licenses/gpl-3.0';
+        break;
+      default:
+        color = 'lightgrey';
+        link = '';
+    }
+  
+    return `[![License: ${license}](https://img.shields.io/badge/License-${license}-${color}.svg)](${link})`;
+  }
+  

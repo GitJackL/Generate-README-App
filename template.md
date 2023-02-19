@@ -23,7 +23,8 @@
 
 ## License
 
-This project is licensed under the <%= projectLicense %> license.
+[![License: <LICENSE>](https://img.shields.io/badge/License-<LICENSE>-<COLOR>.svg)](<LINK>)
+
 
 ## Contributing
 
