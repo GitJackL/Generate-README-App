@@ -1,10 +1,10 @@
-# f
+# Pizza face Project
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Description
 
-f
+Pizzas pepperoni on my face 
 
 ## Table of Contents
 
@@ -17,11 +17,11 @@ f
 
 ## Installation
 
-f
+Get pizza, put on face, enjoy pizza face
 
 ## Usage
 
-f
+Go into town, run around with pizza on face
 
 ## License
 
@@ -30,12 +30,12 @@ f
 
 ## Contributing
 
-f
+Put Pizzas on their face and join me in town to run around with pizza faces
 
 ## Tests
 
-f
+More pizzas
 
 ## Questions
 
-If you have any questions about the repo, open an issue or contact f directly at f.
+If you have any questions about the repo, open an issue or contact PizzaGirl111 directly at pizzagirl@pizzas.pizza.
