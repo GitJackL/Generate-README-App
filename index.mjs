@@ -1,9 +1,12 @@
+// gives access to dependencies needed
 import fs from 'fs';
 import inquirer from 'inquirer';
 import ejs from 'ejs'
 
+//Reads content of template.md and turns it into a string
 const template = fs.readFileSync('template.md', 'utf8');
 
+//Prompt will populate questions in the terminal
 inquirer
   .prompt([
     {
@@ -53,12 +56,15 @@ inquirer
       message: 'What is your email address?',
     },
   ])
+
+  // Takes user responses and used ejs to popuate template with users answers
   .then((answers) => {
     const licenseBadge = renderLicenseBadge(answers.projectLicense);
     const markdown = ejs.render(template, {...answers, licenseBadge});
     fs.writeFileSync('README.md', markdown);
   });
 
+  // Gets license badges based on user choice
 function renderLicenseBadge(license) {
   let color;
   let link;

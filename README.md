@@ -1,10 +1,10 @@
-# Pizza face Project
+# Generate-README-App
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Description
 
-Pizzas pepperoni on my face 
+A simple application to help any user create a README file easily
 
 ## Table of Contents
 
@@ -17,11 +17,11 @@ Pizzas pepperoni on my face
 
 ## Installation
 
-Get pizza, put on face, enjoy pizza face
+Go to https://github.com/GitJackL/Generate-README-App, clone the repo to your local computer.
 
 ## Usage
 
-Go into town, run around with pizza on face
+Using the terminal, access the Generate-README-app. Use the command &#39;node index.mjs&#39; in the terminal, answer the questions in the terminal as you would want them to appear on your README. Once you complete the questions a README.md file will generate.  
 
 ## License
 
@@ -30,12 +30,12 @@ Go into town, run around with pizza on face
 
 ## Contributing
 
-Put Pizzas on their face and join me in town to run around with pizza faces
+Once you have clone the repo, feel free to modify in a way that suits you on your local computer.
 
 ## Tests
 
-More pizzas
+Using the terminal, run the program repeatedly to see if you are getting consistent results.
 
 ## Questions
 
-If you have any questions about the repo, open an issue or contact PizzaGirl111 directly at pizzagirl@pizzas.pizza.
+If you have any questions about the repo, open an issue or contact GitJackL directly at jackling@mail.com.
