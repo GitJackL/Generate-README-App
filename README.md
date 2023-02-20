@@ -39,3 +39,9 @@ Using the terminal, run the program repeatedly to see if you are getting consist
 ## Questions
 
 If you have any questions about the repo, open an issue or contact GitJackL directly at jackling@mail.com.
+
+
+## Screen shot
+
+![My Image](images/screenshot.png)
+
