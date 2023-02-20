@@ -1,8 +1,10 @@
-# The Does it work Foundation
+# f
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Description
 
-To test the limits of my sanity
+f
 
 ## Table of Contents
 
@@ -15,11 +17,11 @@ To test the limits of my sanity
 
 ## Installation
 
-Unplug brain, hope nobody notices I dont know what im doing
+f
 
 ## Usage
 
-Type words that mean what you want
+f
 
 ## License
 
@@ -28,12 +30,12 @@ Type words that mean what you want
 
 ## Contributing
 
-Send money to PO box 449227 
+f
 
 ## Tests
 
-Put on running shoes and do the bleep test
+f
 
 ## Questions
 
-If you have any questions about the repo, open an issue or contact GimpyGit69 directly at GimpyGit@1969.com.
+If you have any questions about the repo, open an issue or contact f directly at f.

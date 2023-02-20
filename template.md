@@ -1,5 +1,7 @@
 # <%= projectTitle %>
 
+<%= licenseBadge %>
+
 ## Description
 
 <%= projectDescription %>
